@@ -1,27 +1,40 @@
 /*
 ---
-description: Provides an accessible grid based on Mootools' HtmlTable
 
-authors: Christian Merz
+script: HtmlTable.grid.js
+
+name: HtmlTable.grid
+
+description: Builds an accessible Grid
+
+license: MIT-style license
+
+authors:
+  - Christian Merz
 
 requires:
-  - Core/1.2.4*
-  - More
-  - HtmlTable
-  - Class.Refactor
-  - Class.Occlude
+  - Core/Hash
+  - /HtmlTable
+  - /HtmlSort
+  - /HtmlZebra
+  - /Class.refactor
+  - /Element.Delegation
+  - /String.Extras
+  - /Date
 
-provides: AccessibleGrid
-
-version: 1.0
+provides: [HtmlTable.grid]
 
 ...
 */
+
+
+// Refactors the Mootools HtmlTableClass
 AccessibleGrid = Class.refactor(HtmlTable, {
     options: {
         gridContainer: null,
         gridname: 'grid'
     },
+	// Initializes the previous class and adds accessible changes
     initialize: function(){
         this.previous.apply(this, arguments);
         
@@ -45,10 +58,8 @@ AccessibleGrid = Class.refactor(HtmlTable, {
         this.shift = false;
         this.interactiveMode = false;
         this.initEvents();
-        
-        
-        
     },
+	// Applies the previous function and adds accessible changes
     sort: function(){
         this.previous.apply(this, arguments);
 		var current = document.activeElement
@@ -60,6 +71,7 @@ AccessibleGrid = Class.refactor(HtmlTable, {
         else 
             current.setProperty('aria-sort', 'ascending');
     },
+	// Overrides the previous function
     push: function(row, rowProperties, target, tag, where){
         if (rowProperties) {
             Object.append(rowProperties, {
@@ -101,6 +113,7 @@ AccessibleGrid = Class.refactor(HtmlTable, {
             tds: tds
         };
     },
+	// Init key events
     initEvents: function(){
         Event.Keys.f2 = 113;
         Event.Keys.f8 = 119;

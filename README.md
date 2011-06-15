@@ -44,8 +44,8 @@ and then add the grid to this container
 
 Sorting is also possbile.
 
-		#HTML
-		grid.enableSort();
+	#HTML
+	grid.enableSort();
 	
 
 	

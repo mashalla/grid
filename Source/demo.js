@@ -1,19 +1,28 @@
 /*
 ---
+
+script: HtmlTable.grid.js
+
+name: HtmlTable.grid
+
 description: demo application
 
-authors: Christian Merz
+license: MIT-style license
+
+authors:
+  - Christian Merz
 
 requires:
-  - Core/1.2.4*
-  - More
-  - HtmlTable
-  - Class.Refactor
-  - Class.Occlude
+  - Core/Hash
+  - /HtmlTable
+  - /HtmlSort
+  - /HtmlZebra
+  - /Class.refactor
+  - /Element.Delegation
+  - /String.Extras
+  - /Date
 
-provides: AccessibleGrid
-
-version: 1.0
+provides: [HtmlTable.grid]
 
 ...
 */
@@ -31,7 +40,6 @@ document.addEvent('domready', function(){
 
         zebra: true
     });
-
     grid.inject(container);
     grid.enableSort();
 });
