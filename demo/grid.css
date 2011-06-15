@@ -1,0 +1,23 @@
+body {
+    font-family: "Arial";
+    font-size: 0.8em;
+    padding: 10px;
+}
+
+
+td {
+    width:70px;
+}
+
+td:focus {
+    outline: 2px dotted #cc0000;
+}
+
+td.table-td-selected{
+	background-color: #aaaaaa;
+}
+
+tr.table-tr-odd{
+	
+	background-color: #eeeeee;
+}

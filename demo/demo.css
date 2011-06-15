@@ -1,0 +1,64 @@
+table.ariaGrid {
+    font-family: "Arial";
+    border: 1px solid #aaaaaa;
+    border-left: none;
+    padding: 0px;
+    border-spacing: 0px;
+}
+
+table.ariaGrid td {
+    border: none;
+    border-left: 1px solid #aaaaaa;
+    padding: 2px;
+    width: 100px;
+    height: 26px;
+    cursor: pointer;
+}
+
+table.ariaGrid td:focus {
+    outline: 2px dotted #cc0000;
+}
+
+table.ariaGrid td input {
+    padding: 2px;
+    margin: -2px;
+    width: 96px;
+    height: 18px;
+}
+
+table.ariaGrid td input:focus {
+    outline: 2px dotted #cc0000;
+}
+
+table.ariaGrid td.table-td-selected {
+    background-color: #ffcccc;
+}
+
+table.ariaGrid th {
+    text-align: center;
+    border: none;
+    border-left: 1px solid #aaaaaa;
+    border-bottom: 2px solid #aaaaaa;
+    background-color: #eeeeee;
+    padding: 2px;
+    width: 100px;
+    height: 24px;
+    background-image: url(../../img/verlauf.png);
+    cursor: pointer;
+}
+
+table.ariaGrid th:focus {
+    outline: 2px dotted #cc0000;
+}
+
+table.ariaGrid th:hover {
+    background-color: #ffffff;
+}
+
+table.ariaGrid th.table-td-selected {
+    background-color: #ffffff;
+}
+
+table.ariaGrid tr.table-tr-odd {
+    background-color: #efefef;
+}

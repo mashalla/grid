@@ -1,0 +1,12 @@
+name: Accessible Grid
+author: mashalla
+category: Widgets
+tags: [grid, htmltable, organisation, accessible]
+#docs: http://no-docs.de
+demo: http://mashalla.github.com/grid
+current: 1.0
+
+sources:
+  - "Source/grid.js"
+  - "Source/demo.js"
+
