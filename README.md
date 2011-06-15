@@ -26,11 +26,11 @@ Similar to Mootools HtmlTable. Create a new grid by using the following command:
     });
 	
 ### Parameters ###
-properties: specify useful html properties
-gridContainer: the containing DOM element of this grid
-headers: the column headers of the grid
-rows: content of the cells in the rows
-zebra: if neighbour grid rows should be coloured differently for enhanced visibility
+* properties: specify useful html properties
+* gridContainer: the containing DOM element of this grid
+* headers: the column headers of the grid
+* rows: content of the cells in the rows
+* zebra: if neighbour grid rows should be coloured differently for enhanced visibility
 
 To integrate the grid into your site define a container
 
