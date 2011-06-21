@@ -163,13 +163,14 @@ AccessibleGrid = Class.refactor(HtmlTable, {
         });
         this.tbody.getElements('td').each(function(el){
             el.addEvents({
-                dblclick: function(e){
-                    self.f2();
-                },
+                //dblclick: function(e){
+                //    self.f2();
+                //},
                 click: function(e){
                     self.checkInput();
-                    self.setFocus(e.target);
-                    self.setSelection(e.target);
+					self.f2();
+                    //self.setFocus(e.target);
+                    //self.setSelection(e.target);
                 },
                 focus: function(e){
                     self.currentActive.setProperty('tabindex', '-1');
