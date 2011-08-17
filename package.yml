@@ -4,7 +4,7 @@ category: Widgets
 tags: [grid, htmltable, organisation, accessible]
 #docs: http://no-docs.de
 demo: http://mashalla.github.com/grid
-current: 1.0
+current: 1.1
 
 sources:
   - "Source/grid.js"
