@@ -1,64 +1,130 @@
+body {
+	font-family: "Arial";
+	font-size: 0.8em;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	background-image: url(img/background.gif);
+	background-repeat: repeat-x;
+	padding: 10px;
+}
+hr {
+	border: 0px solid #aaaaaa;
+	background-color: #aaaaaa;
+	height: 1px;
+}
+a:link {
+	color: #cc0000;
+	text-decoration: none;
+}
+a:visited {
+	color: #cc0000;
+	text-decoration: none;
+}
+a:focus {
+	color: #cc0000;
+	text-decoration: none;
+}
+a:hover {
+	color: #cc0000;
+	text-decoration: underline;
+}
+a:active {
+	color: #cc0000;
+	text-decoration: none;
+}
+h1 {
+	color: #111111;
+	font-size: 2em;
+	font-weight: normal;
+	letter-spacing: 1px;
+	margin: 10px 0;
+	padding: 0;
+}
+h2 {
+	color: #111111;
+	font-size: 1.6em;
+	font-weight: normal;
+	letter-spacing: 1px;
+	margin: 10px 0;
+	padding: 0;
+}
+h3 {
+	color: #333333;
+}
+.youtube {
+	border: 1px solid #aaaaaa;
+	-moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+div.sa_demo_contentScreen {
+	background-color: #ffffff;
+	margin: 0 5px 1em 0;
+	padding: 0px 8px 8px 8px;
+	margin: 10px 40px 40px 5px;
+	width: 580px;
+}
+div.sa_demo_headerScreen {
+	border: #e6e6e6 2px double;
+	background-color: #ffffff;
+	padding: 10px 10px 0px 10px;
+	height: 60px;
+	margin: 70px 0 0px 0;
+	width: 580px;
+}
+/* end common settings 314 */
+
 table.ariaGrid {
-    font-family: "Arial";
-    border: 1px solid #aaaaaa;
-    border-left: none;
-    padding: 0px;
-    border-spacing: 0px;
+	font-family: "Arial";
+	border: 1px solid #aaaaaa;
+	border-left: none;
+	padding: 0px;
+	border-spacing: 0px;
 }
-
 table.ariaGrid td {
-    border: none;
-    border-left: 1px solid #aaaaaa;
-    padding: 2px;
-    width: 100px;
-    height: 26px;
-    cursor: pointer;
+	border: none;
+	border-left: 1px solid #aaaaaa;
+	padding: 2px;
+	width: 100px;
+	height: 26px;
+	cursor: pointer;
 }
-
 table.ariaGrid td:focus {
-    outline: 2px dotted #cc0000;
+	outline: 2px dotted #cc0000;
 }
-
 table.ariaGrid td input {
-    padding: 2px;
-    margin: -2px;
-    width: 96px;
-    height: 18px;
+	padding: 2px;
+	margin: -2px;
+	width: 96px;
+	height: 18px;
 }
-
 table.ariaGrid td input:focus {
-    outline: 2px dotted #cc0000;
+	outline: 2px dotted #cc0000;
 }
-
 table.ariaGrid td.table-td-selected {
-    background-color: #ffcccc;
+	background-color: #ffcccc;
 }
-
 table.ariaGrid th {
-    text-align: center;
-    border: none;
-    border-left: 1px solid #aaaaaa;
-    border-bottom: 2px solid #aaaaaa;
-    background-color: #eeeeee;
-    padding: 2px;
-    width: 100px;
-    height: 24px;
-    background-image: url(../../img/verlauf.png);
-    cursor: pointer;
+	text-align: center;
+	border: none;
+	border-left: 1px solid #aaaaaa;
+	border-bottom: 2px solid #aaaaaa;
+	background-color: #eeeeee;
+	padding: 2px;
+	width: 100px;
+	height: 24px;
+	background-image: url(../../img/verlauf.png);
+	cursor: pointer;
 }
-
 table.ariaGrid th:focus {
-    outline: 2px dotted #cc0000;
+	outline: 2px dotted #cc0000;
 }
-
 table.ariaGrid th:hover {
-    background-color: #ffffff;
+	background-color: #ffffff;
 }
-
 table.ariaGrid th.table-td-selected {
-    background-color: #ffffff;
+	background-color: #ffffff;
 }
-
 table.ariaGrid tr.table-tr-odd {
-    background-color: #efefef;
+	background-color: #efefef;
 }

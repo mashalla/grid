@@ -1,31 +1,3 @@
-/*
----
-
-script: HtmlTable.grid.js
-
-name: HtmlTable.grid
-
-description: demo application
-
-license: MIT-style license
-
-authors:
-  - Christian Merz
-
-requires:
-  - Core/Hash
-  - /HtmlTable
-  - /HtmlSort
-  - /HtmlZebra
-  - /Class.refactor
-  - /Element.Delegation
-  - /String.Extras
-  - /Date
-
-provides: [HtmlTable.grid]
-
-...
-*/
 document.addEvent('domready', function(){
 	var container = $('tabl');
     var grid = new AccessibleGrid({

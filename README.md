@@ -4,8 +4,7 @@ Accessible Grid
 This widget provides an easy to use and accessible grid for data organization with screen reader support.	
 Widget based on HtmlTable of the Mootools More Package! 
 
-![Screenshot](http://www.accessiblemootoolsdemo.iao.fraunhofer.de/Mootools_Widgets/img/Grid.png)
-
+![Screenshot](http://www.accessiblemootoolsdemo.iao.fraunhofer.de/Mootools_Widgets/WidgetThumbs/Grid.png)
 How to use
 ----------
 
